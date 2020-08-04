@@ -5,8 +5,8 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item [routerLink]="['addrestaurant']">Restaurant hinzufügen</a>
-      <a mat-list-item href="#">Restaurants Liste</a>
+      <a mat-list-item [routerLink]="['addRestaurantComponent']">Restaurant hinzufügen</a>
+      <a mat-list-item [routerLink]="['restaurantslistComponent']">Restaurants Liste</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
